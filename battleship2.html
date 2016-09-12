@@ -16,7 +16,7 @@
     <!-- links CSS file to HTML -->
     <link rel="stylesheet" type="text/css" href="battleship2.css"/>
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,800" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   </head>
@@ -30,7 +30,7 @@
           <h1>BATTLESHIP</h1>
           <span id="sm-p-text">
             <p>
-              it's man vs. computer! on the board there are:
+              it's <span id="man-v-computer">man vs. computer!</span> on the board there are:
               <ul>
                 <li>one 5 block ship</li>
                 <li>two 4 block ships</li>
@@ -39,7 +39,7 @@
                 <li>one 1 block ship</li>
               </ul>
               see how many of the computer's battleships you can sink.
-              <br>you need to see 24 yellow squares in order to win. good luck!
+              <br>you need to see <span id="yellow-squares">24 yellow squares</span> in order to win. good luck!
               <hr>
             </p>
           </span>
@@ -51,6 +51,7 @@
           </div>
         </div>
       </div>
+      <footer>&copy; 2016 Vivian Lin</footer>
     </div>
   </body>
 </html>
