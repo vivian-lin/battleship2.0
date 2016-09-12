@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Play Battleship</title>
+    <!-- adds Jquery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <!-- links JS file to HTML -->
+    <script src="battleship2.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+    <!-- links CSS file to HTML -->
+    <link rel="stylesheet" type="text/css" href="battleship2.css"/>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <table id="table"></table>
+        </div>
+        <div class="col-md-6">
+          <div class="container sm-tp-margin">
+            <h1>BATTLESHIP</h1>
+          </div>
+          <div class="container md-tp-margin">
+            <span id="sm-p-text">
+              <p>
+                on the board there are:
+                <ul>
+                  <li>one 5 block ship</li>
+                  <li>two 4 block ships</li>
+                  <li>two 3 block ships</li>
+                  <li>two 2 block ships</li>
+                  <li>one 1 block ship</li>
+                </ul>
+                you need to see 24 yellow squares in order to win. good luck!
+              </p>
+            </span>
+            <p>Torpedos left: <span id="torpedosLeft"></span></p>
+            <p>Number of hits: <span id="shipsSunk"></span></p>
+            <br>
+            <br>
+            <button id="revealShips">Reveal the ships</button>
+            <br>
+            <br>
+            <p id="notification"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

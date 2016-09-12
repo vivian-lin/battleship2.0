@@ -1,0 +1,55 @@
+.container {
+  margin-top: 60px;
+}
+
+td {
+  border-style: solid;
+  border-width: 2px;
+  width: 60px;
+  height: 60px;
+  background-color: #66CCCC;
+}
+
+table {
+  margin-bottom: 60px;
+}
+
+.missedShips {
+  background-color: #FF6666;
+}
+
+.miss {
+  background-color: white;
+}
+
+.hit {
+  background-color: #EDCB62;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  font-size: 45pt;
+  margin-bottom: 3px;
+}
+
+p {
+  text-align: left;
+  text-transform: lowercase;
+}
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-size: 18pt;
+}
+
+.sm-tp-margin {
+  margin-top: 3px;
+}
+
+.md-tp-margin {
+  margin-top: 30px;
+}
+
+#sm-p-text {
+  font-size: 12pt;
+}
