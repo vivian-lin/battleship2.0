@@ -18,6 +18,7 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bungee" rel="stylesheet">
   </head>
   <body>
     <div class="container">
@@ -26,31 +27,27 @@
           <table id="table"></table>
         </div>
         <div class="col-md-6">
-          <div class="container sm-tp-margin">
-            <h1>BATTLESHIP</h1>
-          </div>
-          <div class="container md-tp-margin">
-            <span id="sm-p-text">
-              <p>
-                on the board there are:
-                <ul>
-                  <li>one 5 block ship</li>
-                  <li>two 4 block ships</li>
-                  <li>two 3 block ships</li>
-                  <li>two 2 block ships</li>
-                  <li>one 1 block ship</li>
-                </ul>
-                you need to see 24 yellow squares in order to win. good luck!
-              </p>
-            </span>
+          <h1>BATTLESHIP</h1>
+          <span id="sm-p-text">
+            <p>
+              it's man vs. computer! on the board there are:
+              <ul>
+                <li>one 5 block ship</li>
+                <li>two 4 block ships</li>
+                <li>two 3 block ships</li>
+                <li>two 2 block ships</li>
+                <li>one 1 block ship</li>
+              </ul>
+              see how many of the computer's battleships you can sink.
+              <br>you need to see 24 yellow squares in order to win. good luck!
+              <hr>
+            </p>
+          </span>
+          <div class="pop-up">
+            <h3 id="notification"></h3>
             <p>Torpedos left: <span id="torpedosLeft"></span></p>
-            <p>Number of hits: <span id="shipsSunk"></span></p>
-            <br>
-            <br>
-            <button id="revealShips">Reveal the ships</button>
-            <br>
-            <br>
-            <p id="notification"></p>
+            <p>Number of blocks hit: <span id="shipsSunk"></span></p>
+            <button id="revealShips" type="button">reveal all ships</button>
           </div>
         </div>
       </div>
